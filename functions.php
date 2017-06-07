@@ -1,4 +1,4 @@
-<?php
+<!-- <?php
 /**
  * Emerald.
  *
@@ -305,4 +305,4 @@ genesis_register_sidebar( array(
 	'id'          => 'front-page-4',
 	'name'        => __( 'Front Page 4', 'atmosphere-pro' ),
 	'description' => __( 'This is the 4th section on the front page.', 'atmosphere-pro' ),
-) );
+) ); -->
