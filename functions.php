@@ -11,10 +11,10 @@
  */
 
 // Start the engine.
-include_once( get_template_directory() . '/lib/init.php' );
+//include_once( get_template_directory() . '/lib/init.php' );
 
 // Setup Theme.
-include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
+//include_once( get_stylesheet_directory() . '/lib/theme-defaults.php' );
 
 // Set Localization (do not remove).
 add_action( 'after_setup_theme', 'atmosphere_localization_setup' );
@@ -113,7 +113,7 @@ add_theme_support( 'genesis-menus', array( 'primary' => __( 'Header Menu', 'atmo
 
 // Remove output of primary navigation right extras.
 remove_filter( 'genesis_nav_items', 'genesis_nav_right', 10, 2 );
-remove_filter( 'wp_nav_menu_items', 'genesis_nav_right', 10, 2 );
+//remove_filter( 'wp_nav_menu_items', 'genesis_nav_right', 10, 2 );
 
 // Remove navigation meta box.
 add_action( 'genesis_theme_settings_metaboxes', 'atmosphere_remove_genesis_metaboxes' );
