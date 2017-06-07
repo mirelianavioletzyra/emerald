@@ -1,11 +1,11 @@
 <?php
 /**
- * Atmosphere Pro.
+ * Emerald.
  *
- * This file adds the front page to the Atmosphere Pro Theme.
+ * This file adds functions to the Emerald Theme.
  *
- * @package Atmosphere
- * @author  StudioPress
+ * @package Emerald
+ * @author  Amethyst Design
  * @license GPL-2.0+
  * @link    http://my.studiopress.com/themes/atmosphere/
  */
